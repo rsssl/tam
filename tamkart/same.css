@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #141414;
+    font-family: arial;
+
+}
+.container{
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+}
+.ul-header{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-top: 25px;
+}
+.ul-header >li>a:hover{
+    color: #10f136;
+    transition: 0.5s;
+}
+.ul-header >li > a{
+    color: white;
+}
+.h1-header{
+    font-size: 50px;
+    color: #4aea2e;
+}
+.header-button{
+    background-color: #4aea2e;
+    border: 1px solid #44eb60;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 8px;
+}
+.header-button:hover{
+    background-color: #12d332;
+    transition: 0.5s;
+}
+header{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(44, 44, 44);
+    padding: 10px 0;
+    z-index: 5;
+}
+.section-tamkart{
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+.h1-tamkart{
+    font-size: 60px;
+}
+.debit{
+    color: #10f136;
+}
+td{
+    padding-right: 20px;
+}
+.div-table{
+    display: flex;
+    margin-top: 35px;
+    text-align: left;
+    gap: 25px;
+}
+
+.div-table .p-gray{
+    color: gray;
+}
+
+.button-section2{
+    background-color: #4aea2e;
+    border: 1px solid #44eb60;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: -7px;
+}
+.button-section2:hover{
+    background-color: #12d332;
+    transition: 0.4s;
+}
+.img-card{
+    width: 380px;
+    height: 230px;
+}
+.cards{
+    display: flex;
+    padding-right: 280px;
+}
+.img1{
+    position: relative;
+    z-index: 2;
+    top:32% ;
+    right: -40%;
+}
+.img2{
+    position: relative;
+    z-index: 1;
+}
+.cards:hover{
+    .img1{
+        top:10% ;
+        right: -38%;
+        transition: 0.5s;
+    }  
+
+    .img2{
+        top: 34%;
+        right: -5%;
+        transition: 0.5s;
+    }
+}
+
+.section3{
+    margin-top: 15%;
+    color: white;
+}
+.section3 p{
+    color: gray;
+   padding-top: 20px;
+}
+.section3 h1{
+    font-size: 35px;
+}
+.section3 ul{
+    list-style-image: url(icons8-check.svg);
+    padding-left: 25px;
+    padding-top: 25px;
+    line-height: 25px;
+}
+.change-card{
+    width: 180px;
+    height: 45px;
+    display: flex;
+    gap: 5px;
+    padding: 3px;
+    background-color: rgba(183, 183, 183, 0.237);
+    border-radius: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.debet{
+    background-color: #10f136;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: black;
+}
+.kredit{
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.section4{
+    margin-top: 15%;
+}
+.section4 h1{
+    font-size: 40px;
+    color: white;
+}
+.section4 p{
+    color: gray;
+    padding: 20px 0;
+}
+.section4button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #10f136;
+    border: 1px solid #12d332;
+}
+.section4_div2{
+    display: flex;
+}
+.section4_div2 a{
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+.svg4{
+    width: 30px;
+    height: 30px;
+    background-color:rgba(117,250,86,.1);
+    border-radius: 20px;
+}
+.svvg4 svg{
+    background-color: transparent;
+}
+
+.section5img{
+    border-radius: 20px;
+}
+.section5{
+    display: flex;
+    color: white;
+    margin: 30px 120px;
+}
+.section5 p{
+    color: gray;
+}
